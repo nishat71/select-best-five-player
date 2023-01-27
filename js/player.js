@@ -43,14 +43,8 @@ function getInputFieldValueById(inputvalueId) {
     const inputFieldValue = parseFloat(inputFieldValueString);
     inputField.value = '';
     return inputFieldValue;
-
 }
 
-// function getTextFieldValueById(elementId){
-//     const textElement = document.getElementById(elementId);
-//     const textElementValue = textElement.innerText;
-//     return textElementValue;
-// }
 
 document.getElementById('btn-calculate').addEventListener('click', function () {
     const perPlayerCost = getInputFieldValueById('per-player-cost');
