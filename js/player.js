@@ -1,4 +1,3 @@
-
 const selectionArray = [];
 
 function display(selectPlayer) {
@@ -21,7 +20,6 @@ function display(selectPlayer) {
 
 function selectToCart(element) {
     const playerName = element.parentNode.children[0].innerText;
-
     selectionArray.push(playerName);
     console.log(selectionArray, selectionArray.length);
 
